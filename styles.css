@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Titillium+Web:wght@400;600&display=swap');
+
+* {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    margin: 0px
+}
+
+.crumb {
+    margin: 2rem;
+    display: inline;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+h2 {
+    font-size: x-large;
+    color: aqua;
+}
+
+h3 {
+    color: rgb(184, 137, 229);
+    margin: 10px 0px 0px 0px;
+}
+
+ol {
+    background-color: black;
+    padding: 20px;
+    align-items: right;
+}
+
+.informationSection {
+    background-color: black;
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+.projectText {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 25px auto auto
+}
+
+.projectFlex {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.horizonalList {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+ul {
+    padding-inline-start: 0px;
+    padding-inline-end: 40px;
+}
