@@ -40,11 +40,12 @@ ol {
     background-color: black;
     padding: 20px;
     align-items: right;
+    margin: 30px;
 }
 
 .informationSection {
     background-color: black;
-    margin: 30px 0px;
+    margin: 30px;
     padding: 20px;
 }
 
