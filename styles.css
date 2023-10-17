@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Titillium+Web:wght@400;600&display=swap');
 
 * {
-    color: black;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: large;
@@ -12,6 +11,10 @@
     margin: 1rem;
     display: inline;
     text-align: center;
+}
+
+a {
+    color: white;
 }
 
 p {
@@ -35,11 +38,11 @@ h2 {
 
 h3 {
     color: rgb(142, 10, 208);
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    font-size: 22px;
 }
 
 ol {
-    background-color: white;
     padding: 10px;
     align-items: right;
     margin: 30px;
@@ -51,7 +54,7 @@ ol {
 
 .informationSection {
     background-color: rgba(255, 255, 255, 0.983);
-    margin: 30px 40px;
+    margin: 50px 40px;
     padding: 15px;
 }
 
@@ -83,4 +86,8 @@ ol {
 ul {
     padding-inline-start: 0px;
     padding-inline-end: 40px;
+}
+
+.black {
+    color: black;
 }
